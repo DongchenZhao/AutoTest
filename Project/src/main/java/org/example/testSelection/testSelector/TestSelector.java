@@ -1,5 +1,7 @@
-package org.example.testSelection;
+package org.example.testSelection.testSelector;
 
+
+import org.example.testSelection.BasicData;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,7 +25,7 @@ public class TestSelector {
     /**
      * 选择到受变更影响的测试用例
      */
-    protected void selectTestCases(){}
+    public void selectTestCases(){}
 
     /**
      * dfs过程中，对于一个类名或者完整的方法签名，判断其是不是@Test方法

@@ -3,6 +3,9 @@ package org.example.testSelection;
 import com.ibm.wala.ipa.cha.ClassHierarchyException;
 import com.ibm.wala.shrikeCT.InvalidClassFileException;
 import com.ibm.wala.util.CancelException;
+import org.example.testSelection.testSelector.ClassTestSelector;
+import org.example.testSelection.testSelector.MethodTestSelector;
+import org.example.testSelection.testSelector.TestSelector;
 
 import java.io.IOException;
 
